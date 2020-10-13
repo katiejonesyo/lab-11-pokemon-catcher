@@ -31,5 +31,22 @@ eachButton.addEventListener('change', (e) => {
 
 
 
+//accumulator
+let accumulator = 0;
 
+function tallyRounds() {
+
+    accumulator = accumulator + 1;
+    console.log(accumulator)
+
+
+    roundsPlayed.textContent = accumulator;
+
+    if (accumulator === 10) {
+        alert('message');
+        window.location = './results.html';
+    
+    }
+return accumulator
+}
 
