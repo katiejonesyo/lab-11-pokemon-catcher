@@ -16,6 +16,15 @@ header {
     box-shadow: var(--shadow);
 }
 
+img {
+    width: 200px;
+    height: 200px;
+}
+
+input {
+    display:none;
+} 
+
 
 h2 {
     font-size: 1.8rem;
@@ -46,15 +55,9 @@ section {
     align-items: center;
     padding-top: 5%;
     margin-top: var(--gutter);
-    border: solid 2px var(--color1);
+    
 }
 
-
-content {
-    width: 80%;
-    text-align: center;
-    flex-direction: row;
-}
 
 p {
     margin: var(--gutter);
@@ -71,4 +74,5 @@ footer {
     box-shadow: var(--shadow);
 }
   
+
 

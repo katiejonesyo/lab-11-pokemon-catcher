@@ -10,7 +10,7 @@ const pokeResults = [];
 
 for (let i = 0; i < radioButtons.length; i++) {
 
-    radioButtons[i].addEventListener('change', (e) => {
+    radioButtons[i].addEventListener('click', (e) => {
         radioButtons.forEach((radio) => {
 
             let pokemon = findById(pokeResults, Number(radio.value));
