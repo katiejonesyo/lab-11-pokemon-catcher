@@ -18,8 +18,9 @@ main-section {
 }
 
 
+
 section {
-    width: 1000px;
+    width: 80%;
     max-width: 50%;
     height: 100%;
     display: flex;
@@ -27,6 +28,7 @@ section {
     padding-top: 17%;
     justify-content: right;
     margin-top: var(--gutter);
+    
 }
 
 
@@ -50,4 +52,3 @@ p {
     margin: var(--gutter);
 }
   
-
