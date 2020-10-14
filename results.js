@@ -124,7 +124,7 @@ var myChart = new Chart(ctx, {
 
 var ctx = document.getElementById('myOtherChart').getContext('2d');
 
-var myChart = new Chart(ctx, {
+var myOtherChart = new Chart(ctx, {
 
     type: 'bar',
 

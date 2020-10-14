@@ -4,101 +4,19 @@ body {
 }
 
 h2 {
+   background-color: yellow
+}
+
+
+.chart {
+
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 20px;
+   padding: 40px;
    background-color: white;
 }
 
-table {
-
-   margin: auto;
-   padding: 5px;
-   background-color: yellow;
-   border: 5px solid yellow;
-
-}
-
-thead {
-
-   margin: 5px;
-
-   padding: 5px;
-
-   text-align: center;
-
-   border: 3px ;
-
-}
 
 
 
-
-tr {
-
-   margin: 5px;
-
-   padding: 5px;
-
-   border: 1px;
-
-}
-
-
-
-
-th {
-
-   margin: 5px;
-
-   padding: 5px;
-
-}
-
-
-
-
-tbody {
-
-   border: 2px;
-
-}
-
-
-
-
-td {
-
-   border: 1px;
-
-}
-
-
-
-
-tfoot {
-
-   border: 2px;
-
-}
-
-
-
-
-.results-span {
-
-   font-weight: bold;
-
-   margin: 1px;
-
-   padding: 1px;
-
-}
-
-
-
-
-.congrats {
-
-   padding-top: 5px;
-
-   border: none;
-
-}

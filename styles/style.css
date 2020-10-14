@@ -9,6 +9,26 @@ body {
     background-image: url('https://wallpaperaccess.com/full/8614.jpg');
 }
 
+header {
+    display: flex;
+    background-color:rgb(240, 221, 49);
+    height: var(--header-height);
+    box-shadow: var(--shadow);
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: rgb(240, 221, 49);
+}
+
+
+h3 {
+    text-align: center;
+}
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -29,44 +49,11 @@ section {
     border: solid 2px var(--color1);
 }
 
-header {
-    display: flex;
-    background-color:rgb(240, 221, 49);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
-}
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    background-color: rgb(240, 221, 49);
-}
-
-.gutter-right {
-    margin-right: 20px;
-}
-
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
-
-header img {
-    height: var(--header-height);
-}
-
-
 
 content {
     width: 80%;
     text-align: center;
+    flex-direction: row;
 }
 
 p {
@@ -84,3 +71,4 @@ footer {
     box-shadow: var(--shadow);
 }
   
+
