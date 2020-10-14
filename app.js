@@ -1,5 +1,4 @@
-import { data } from './pokemonData.js';
-
+import { data } from './data.js';
 import { BAG } from './constants.js';
 
 const roundsPlayed = document.querySelector('.rounds-played')
