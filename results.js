@@ -20,7 +20,7 @@ return bagItem.encountered;
 
 var ctx = document.getElementById('myChart').getContext('2d');
 
-var myChart = newChart(ctx, {
+var myChart = new Chart(ctx, {
 
     type: 'bar',
 
@@ -124,7 +124,7 @@ var myChart = newChart(ctx, {
 
 var ctx = document.getElementById('myOtherChart').getContext('2d');
 
-var myOtherChart = new Chart(ctx, {
+var myChart = new Chart(ctx, {
 
     type: 'bar',
 
