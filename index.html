@@ -14,19 +14,36 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-        </div>
     </header>
     <main>
         <section class="main-section">
             <h2><u>Catch Your Pokémon!</u></h2>
-
             <content>
             <p><u>Rules:</u></p>
-            <hr/>
-            <p><a href="./playgame.html">Play Game!</a></p>
-        
+            <p>In each round three pokémon will appear. Click on a Pokemon to add it to your bag. At the end of ten rounds, you will see everything that you have caught.</p>
         </section>
+        <br>
+        <h2>
+            Rounds Played: <span class="rounds-played">0</span>
+        </h2>
+        <section class="content-section">
+     <div class="image-div">
+    <label>
+        <input type="radio" name="pokemon" value="image1" class="pokemon-image"  id="one">      
+        <img src="" alt="Bulb">
+    </label>
+    <label>
+        <input type="radio" name="pokemon" value="image2" class="pokemon-image" id="two">
+        <img src="" alt="Char">
+    </label>
+    <label>
+        <input type="radio" name="pokemon" value="image3" class="pokemon-image" id="three">
+        <img src=""  alt="Wart">
+    </label>
+    </div>
+    <br>
+    <p><a href="./results.html">Results!</a></p>
+    </section>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
