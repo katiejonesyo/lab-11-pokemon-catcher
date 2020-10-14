@@ -82,7 +82,7 @@ function tallyRounds() {
 
         alert('Game Complete. Click OK to see your results.');
 
-        window.location = './results/index.html';
+        window.location = './results.html';
 
     }    
 
@@ -99,7 +99,7 @@ function getRandomPokemon(dataArray) {
 
 }
 
-export function startRound() {
+function startRound() {
 
 
     let pokemonOne = getRandomPokemon(data);

@@ -10,9 +10,8 @@ h2 {
 table {
 
    margin: auto;
-
    padding: 5px;
-
+   background-color: yellow;
    border: 5px solid yellow;
 
 }
